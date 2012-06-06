@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IndiansInc.Internals.ColumnMapItem">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColumnMapItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndiansInc.Internals.ColumnMapItemCollection">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAEAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColumnMapCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndiansInc.MySqlBulkCopy">
+    <Position X="6" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAiAAAAAAAQAAgAAgAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>BulkUpload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndiansInc.Internals.DuplicateColumnMappingException">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DuplicateColumnMappingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="IndiansInc.Internals.ColumnProperty">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ColumnProperty.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

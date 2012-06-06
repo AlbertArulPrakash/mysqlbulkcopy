@@ -1,0 +1,5 @@
+D:\IndiansIncDevelopment\windowsApps\MySqlBulkCopy\MySqlBulkCopy\bin\Debug\MySqlBulkCopy.dll
+D:\IndiansIncDevelopment\windowsApps\MySqlBulkCopy\MySqlBulkCopy\bin\Debug\MySqlBulkCopy.pdb
+D:\IndiansIncDevelopment\windowsApps\MySqlBulkCopy\MySqlBulkCopy\obj\Debug\ResolveAssemblyReference.cache
+D:\IndiansIncDevelopment\windowsApps\MySqlBulkCopy\MySqlBulkCopy\obj\Debug\MySqlBulkCopy.dll
+D:\IndiansIncDevelopment\windowsApps\MySqlBulkCopy\MySqlBulkCopy\obj\Debug\MySqlBulkCopy.pdb
