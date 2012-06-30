@@ -1,7 +1,7 @@
 ﻿/* 
  * IndiansInc.MySqlBulklCopy
- * A port of PHP IDS to the .NET Framework
- * Requirements: .NET Framework 2.0/Mono
+ * Helpful to copy a huge data set from one Mysql table to another.
+ * Requirements: .NET Framework 3.5/Mono
  * Copyright (c) 2012 IndiansInc.MySqlBulkcopy (http://code.google.com/p/mysqlbulkcopy/)
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
