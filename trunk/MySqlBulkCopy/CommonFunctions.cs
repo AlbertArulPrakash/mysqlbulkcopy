@@ -1,7 +1,7 @@
 ﻿/* 
  * IndiansInc.MySqlBulklCopy
- * A port of PHP IDS to the .NET Framework
- * Requirements: .NET Framework 2.0/Mono
+ * Helpful to copy a huge data set from one Mysql table to another.
+ * Requirements: .NET Framework 3.5/Mono
  * Copyright (c) 2012 IndiansInc.MySqlBulkcopy (http://code.google.com/p/mysqlbulkcopy/)
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,13 @@ namespace IndiansInc.Internals
 
     internal class CommonFunctions
     {
+
+        /// <summary>
+        /// Method to get the column names 
+        /// </summary>
+        /// <param name="mapItemCollection"></param>
+        /// <param name="propertyToFetch"></param>
+        /// <returns></returns>
         public string GetColumnNames(ColumnMapItemCollection mapItemCollection, ColumnProperty propertyToFetch)
         {
             if (mapItemCollection == null) { throw new ArgumentNullException("mapItemCollection"); }
@@ -77,6 +84,12 @@ namespace IndiansInc.Internals
             return string.Format(baseSql, builder.ToString().Substring(0, builder.ToString().Length - 1));
         }
 
+        /// <summary>
+        /// Method that constructs the individual value. This method determines the quote model based on the datatype
+        /// </summary>
+        /// <param name="dataType">data type of destination column</param>
+        /// <param name="value">Value that to be constructed</param>
+        /// <returns>formatted value based on data type</returns>
         private string ConstructIndividualValue(string dataType, string value)
         {
             string returnValue = "";

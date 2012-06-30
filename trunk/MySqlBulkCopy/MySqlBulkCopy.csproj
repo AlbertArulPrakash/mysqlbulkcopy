@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BatchSizeCompletedEventArgs.cs" />
     <Compile Include="BulkUpload.cs" />
     <Compile Include="ColumnMapCollection.cs" />
     <Compile Include="ColumnMapItem.cs" />
