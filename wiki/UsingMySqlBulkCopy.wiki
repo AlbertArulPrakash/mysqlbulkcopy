@@ -1,0 +1,12 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+MySqlBulkCopy will be used in a use case scenario where you need to upload data from one table to another from an administration screen. This page explains you on uploading data from various data sources.
+
+= Details =
+
+Uploading bulk data from:
+  * Mysql Tables to [fromdifferentdatabase]another destination table[/fromdifferentdatabase]
+
+  * Automatic links to other wiki pages
