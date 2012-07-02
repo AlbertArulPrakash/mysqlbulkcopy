@@ -7,6 +7,6 @@ MySqlBulkCopy will be used in a use case scenario where you need to upload data 
 = Details =
 
 Uploading bulk data from:
-  * Mysql Tables to [fromdifferentdatabase]another destination table[/fromdifferentdatabase]
+  * Mysql Tables from different database tables  to a destination table
 
   * Automatic links to other wiki pages
