@@ -2,12 +2,14 @@
 
 = Introduction =
 
-Add your content here.
-
+In many scenarios, we would be copying data from a backup database that is stored in some cloud storage which is accessible only using an Admin screen. MySqlBulkCopy helps you to restore the data
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+When you want to copy data from one table to another, you can implement the scenario as below.
+
+*Creating Connection*
+<code language="c#">
+   MySql.Data.MySqlClient.MySqlConnection connection = new MySql.Data.MySqlClient.MySqlConnection("Server=myProductionServer;Port=3306;Database=destination;Uid=root;Pwd=12345;");
+            MySql.Data.MySqlClient.MySqlConnection sourceConnection = new MySql.Data.MySqlClient.MySqlConnection("Server=myBackupServer;Port=3306;Database=users;Uid=root;Pwd=12345;");
+</code>
