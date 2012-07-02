@@ -10,6 +10,6 @@ When you want to copy data from one table to another, you can implement the scen
 
 *Creating Connection*
 <code language="c#">
-   MySql.Data.MySqlClient.MySqlConnection connection = new MySql.Data.MySqlClient.MySqlConnection("Server=myProductionServer;Port=3306;Database=destination;Uid=root;Pwd=12345;");
-            MySql.Data.MySqlClient.MySqlConnection sourceConnection = new MySql.Data.MySqlClient.MySqlConnection("Server=myBackupServer;Port=3306;Database=users;Uid=root;Pwd=12345;");
+MySql.Data.MySqlClient.MySqlConnection connection = new MySql.Data.MySqlClient.MySqlConnection("Server=myProductionServer;Port=3306;Database=destination;Uid=root;Pwd=12345;");
+MySql.Data.MySqlClient.MySqlConnection sourceConnection = new MySql.Data.MySqlClient.MySqlConnection("Server=myBackupServer;Port=3306;Database=users;Uid=root;Pwd=12345;");
 </code>
