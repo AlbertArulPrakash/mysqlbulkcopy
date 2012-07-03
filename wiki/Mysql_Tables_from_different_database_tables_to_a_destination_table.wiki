@@ -51,4 +51,19 @@ collection.Add(active);
 </code>
 [ColumnMapItem] helps you to map the source table columns with the destination table column. Without a column mapping between tables, MySqlBulkCopy will not be able to upload data between tables. 
 
-[ColumnMapItemCollection] is the container that will group all the [ColumnMapItem] information for [MySqlBulkCopy] to upload the data
+[ColumnMapItemCollection] is the container that will group all the [ColumnMapItem] information for [MySqlBulkCopy] to upload the data.
+
+*Calling data Upload *
+<code language="c#">
+MySql.Data.MySqlClient.MySqlCommand command = new MySql.Data.MySqlClient.MySqlCommand("select idsession,userid,datelogged,loggedfrom,active from session", sourceConnection);
+MySql.Data.MySqlClient.MySqlDataReader reader = command.ExecuteReader();
+
+MySqlBulkCopy upload = new MySqlBulkCopy();
+upload.DestinationTableName = "session";
+upload.Upload(reader);
+reader.Close();
+connection.Close();
+connection.Dispose();
+sourceConnection.Close();
+sourceConnection.Dispose();
+</code>
